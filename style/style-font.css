@@ -5,7 +5,8 @@
   font-weight: normal;
   src:
     url('./font/NotoSans_Regular.woff2') format('woff2'),
-    url('./font/NotoSans_regular.woff') format('woff'),
+    url('./font/NotoSans_regular.otf') format('otf'),
+    url('./font/NotoSans_regular.woff') format('woff');
 }
 
 @font-face {
@@ -13,8 +14,10 @@
   font-display: swap;
   font-style: normal;
   font-weight: bold;
-  src: url("./font/NotoSans_Bold.woff2") format("woff2"),
-    url("./font/NotoSans_bold.woff") format("woff"),
+  src:
+    url("./font/NotoSans_Bold.woff2") format("woff2"),
+    url("./font/NotoSans_bold.otf") format("otf"),
+    url("./font/NotoSans_bold.woff") format("woff");
 }
 
 body * {
